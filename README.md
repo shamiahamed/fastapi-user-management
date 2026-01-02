@@ -1,23 +1,50 @@
-This project is a User Management System API built with FastAPI and SQLAlchemy (Async) following industry-standard best practices.
+🚀 FastAPI User Management System
 
-Features include:
+A scalable and production-ready User Management System API built using FastAPI and Async SQLAlchemy, following industry-standard backend best practices and clean architecture principles.
+
+✨ Key Features
+
+🔐 Authentication & Authorization
 
 User registration and login
 
-JWT-based authentication & authorization
+JWT-based authentication
 
-Role-based access control (RBAC)
+Secure token handling
 
-CRUD operations for users
+Role-Based Access Control (RBAC)
 
-Soft delete implementation
+👤 User Management
 
-Custom exception handling
+Create, read, update, and delete users (CRUD)
 
-Middleware for logging & response formatting
+Soft delete implementation (data safety & audit-friendly)
 
-Clean architecture (Router → Controller → Service → Repository)
+🛠 Architecture & Code Quality
 
-MySQL/PostgreSQL database support
+Clean layered architecture
+Router → Controller → Service → Repository
 
-Designed for scalability, maintainability, and real-world backend use cases.
+Custom exception handling for consistent error responses
+
+Middleware for request logging & response formatting
+
+🗄 Database Support
+
+Async SQLAlchemy ORM
+
+Compatible with MySQL and PostgreSQL
+
+Easily extendable to other relational databases
+
+📈 Production Ready
+
+Designed for scalability and maintainability
+
+Modular, testable, and easy to extend
+
+Suitable for real-world backend applications
+
+🎯 Project Goal
+
+To provide a clean, secure, and extensible User Management API that follows real-world backend development standards and can be used as a foundation for enterprise-level applications.
